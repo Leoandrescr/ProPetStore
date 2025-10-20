@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title id="pageTitle">Registro - Nuevo Usuario</title>
   <link rel="icon" type="image/x-icon" href="recursos/icons/petStoreIcon.ico"/>
 </head>
-<header>
-  <h1>Registrate con nosotros</h1>
-</header>
-</head>
+
 <body>
-  
+
+  <section id="userRegistro">
+    <h2>Registrate con nosotros</h2>
+
+    <form id="formRegistro">
+      <div>
+        <label for="userName">Nombre de usuario</label>
+        <input type="text" id="userName" name="nombreUsuario">
+      </div>
+      
+      <div>
+        <label for="userMail">Email</label>
+        <input type="email" id="userMail" name="mailUsuario">
+      </div>
+      
+      <div>
+        <label for="userPassword">Contraseña</label>
+        <input type="password" id="userPassword" name="contraseñaUsuario">
+      </div>
+
+      <div>
+        <button type="submit">Registrar</button>
+      </div>
+
+      <div>
+        <a onclick="location.href='paginas/Login.html'">¿Ya tienes una cuenta?</a>
+      </div>
+
+    </form>
+  </section>
+
 </body>
+
 </html>
